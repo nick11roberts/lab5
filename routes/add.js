@@ -7,4 +7,6 @@ exports.addFriend = function(req, res) { 
     imageURL: 'http://lorempixel.com/400/400/people'
   }
 	data.friends.push(newFriend);
+
+  res.redirect('/');
  }
